@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: red burlywood;
+        }
+
+        h2 {
+            font-weight: bolder;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            text-align: center;
+            border-style: solid black;
+
+        }
+
+        p {
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+            color: rgb(99, 73, 124);
+
+        }
+
+        #para1 {
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+            color: rgb(68, 153, 11);
+
+        }
+
+        .container {
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+            color: rgb(172, 40, 17);
+
+        }
+
+        [title="selector"] {
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+
+            color: rgb(7, 112, 138);
+
+        }
+
+
+        .box {
+            text-align: center;
+            font-size: larger;
+            width: auto;
+            color: blueviolet;
+            background-color: rgb(202, 186, 218);
+        }
+
+        .box:hover {
+            background-color: blanchedalmond;
+            color: brown;
+        }
+
+
+
+        .Active {
+            text-align: center;
+            color: aqua;
+            background-color: blanchedalmond;
+            font-size: larger;
+            font-style: italic;
+            font-weight: bolder;
+
+
+        }
+
+        .Active:active {
+            background-color: brown;
+            color: bisque;
+
+        }
+
+        input {
+            background-color: aliceblue;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        input:focus {
+            background-color: aquamarine;
+            color: aqua;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>CSS Selectors</h2>
+    </header>
+    <div>
+        <p>The CSS element Selector The element selector selects HTML elements based on the element name.
+        </p>
+    </div>
+    <div id="para1"> * The CSS id Selector<br>
+        The id selector uses the id attribute of an HTML element to select a specific element.<br>
+        The id of an element is unique within a page, so the id selector is used to select one unique element<br />
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+    </div><br>
+
+    <div class="container">* The CSS class Selector<br>
+        The class selector selects HTML elements with a specific class attribute.<br>
+        To select elements with a specific class, write a period (.) character, followed by the class name.</div>
+
+    <p title="selector"> *CSS [attribute="value"] Selector<br>
+        The [attribute="value"] selector is used to select elements with a specified attribute and value.</p><br>
+
+    <div class="box">hover psuedo clas</div><br>
+
+    <div class="Active"> active psuedo class</div><br>
+    <div>
+        <form>
+            <fieldset>
+
+                <P> Name :<input type="text" name="username" placeholder="userName" /></P>
+                <P>email:<input type="email" name="email" placeholder="email" /></P>
+                <P>password :<input type="password" name="password" placeholder="password" /></P>
+        </form>
+    </div>
+</body>
+
+</html>
